@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B29E13229AF80EB00F228D8 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29E13129AF80EB00F228D8 /* Form.swift */; };
+		6B29E13329AF80EB00F228D8 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29E13129AF80EB00F228D8 /* Form.swift */; };
+		6B30282829AF521500C4F6C2 /* FristProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B30281529AF520E00C4F6C2 /* FristProjectApp.swift */; };
+		6B30282929AF521600C4F6C2 /* FristProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B30281529AF520E00C4F6C2 /* FristProjectApp.swift */; };
+		6B30282A29AF521600C4F6C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B30281629AF520E00C4F6C2 /* ContentView.swift */; };
+		6B30282B29AF521600C4F6C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B30281629AF520E00C4F6C2 /* ContentView.swift */; };
+		6B30282C29AF521600C4F6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B30281729AF521500C4F6C2 /* Assets.xcassets */; };
+		6B30282D29AF521600C4F6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B30281729AF521500C4F6C2 /* Assets.xcassets */; };
+		6B48228229B0A19B00877A77 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48228129B0A19B00877A77 /* Hero.swift */; };
+		6B48228329B0A19B00877A77 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48228129B0A19B00877A77 /* Hero.swift */; };
+		6B5F85F829B0C3C5003370D7 /* maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F85F729B0C3C5003370D7 /* maps.swift */; };
+		6B5F85F929B0C3C5003370D7 /* maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F85F729B0C3C5003370D7 /* maps.swift */; };
+		6B5F85FB29B0CC2C003370D7 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F85FA29B0CC2C003370D7 /* Landmark.swift */; };
+		6B5F85FC29B0CC2C003370D7 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F85FA29B0CC2C003370D7 /* Landmark.swift */; };
+		6B5F85FF29B0CD09003370D7 /* Landmark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F85FD29B0CD09003370D7 /* Landmark.xcdatamodeld */; };
+		6B5F860029B0CD09003370D7 /* Landmark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F85FD29B0CD09003370D7 /* Landmark.xcdatamodeld */; };
+		6B5F860229B0D338003370D7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F860129B0D338003370D7 /* Data.swift */; };
+		6B5F860329B0D338003370D7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F860129B0D338003370D7 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B29E13129AF80EB00F228D8 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		6B30281529AF520E00C4F6C2 /* FristProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristProjectApp.swift; sourceTree = "<group>"; };
+		6B30281629AF520E00C4F6C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B30281729AF521500C4F6C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B30281C29AF521500C4F6C2 /* FristProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FristProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B30281F29AF521500C4F6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B30282429AF521500C4F6C2 /* FristProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FristProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B30282629AF521500C4F6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B30282729AF521500C4F6C2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6B48228129B0A19B00877A77 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		6B5F85F729B0C3C5003370D7 /* maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maps.swift; sourceTree = "<group>"; };
+		6B5F85FA29B0CC2C003370D7 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		6B5F85FE29B0CD09003370D7 /* Landmark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Landmark.xcdatamodel; sourceTree = "<group>"; };
+		6B5F860129B0D338003370D7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B30281929AF521500C4F6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B30282129AF521500C4F6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B30280F29AF520D00C4F6C2 = {
+			isa = PBXGroup;
+			children = (
+				6B5F860429B0D4FE003370D7 /* Data */,
+				6B30281429AF520E00C4F6C2 /* Shared */,
+				6B30281E29AF521500C4F6C2 /* iOS */,
+				6B30282529AF521500C4F6C2 /* macOS */,
+				6B30281D29AF521500C4F6C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B30281429AF520E00C4F6C2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6B30281529AF520E00C4F6C2 /* FristProjectApp.swift */,
+				6B29E13129AF80EB00F228D8 /* Form.swift */,
+				6B30281629AF520E00C4F6C2 /* ContentView.swift */,
+				6B30281729AF521500C4F6C2 /* Assets.xcassets */,
+				6B48228129B0A19B00877A77 /* Hero.swift */,
+				6B5F85F729B0C3C5003370D7 /* maps.swift */,
+				6B5F85FA29B0CC2C003370D7 /* Landmark.swift */,
+				6B5F85FD29B0CD09003370D7 /* Landmark.xcdatamodeld */,
+				6B5F860129B0D338003370D7 /* Data.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6B30281D29AF521500C4F6C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B30281C29AF521500C4F6C2 /* FristProject.app */,
+				6B30282429AF521500C4F6C2 /* FristProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B30281E29AF521500C4F6C2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B30281F29AF521500C4F6C2 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6B30282529AF521500C4F6C2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B30282629AF521500C4F6C2 /* Info.plist */,
+				6B30282729AF521500C4F6C2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6B5F860429B0D4FE003370D7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B30281B29AF521500C4F6C2 /* FristProject (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B30283029AF521600C4F6C2 /* Build configuration list for PBXNativeTarget "FristProject (iOS)" */;
+			buildPhases = (
+				6B30281829AF521500C4F6C2 /* Sources */,
+				6B30281929AF521500C4F6C2 /* Frameworks */,
+				6B30281A29AF521500C4F6C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FristProject (iOS)";
+			productName = "FristProject (iOS)";
+			productReference = 6B30281C29AF521500C4F6C2 /* FristProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B30282329AF521500C4F6C2 /* FristProject (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B30283329AF521600C4F6C2 /* Build configuration list for PBXNativeTarget "FristProject (macOS)" */;
+			buildPhases = (
+				6B30282029AF521500C4F6C2 /* Sources */,
+				6B30282129AF521500C4F6C2 /* Frameworks */,
+				6B30282229AF521500C4F6C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FristProject (macOS)";
+			productName = "FristProject (macOS)";
+			productReference = 6B30282429AF521500C4F6C2 /* FristProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B30281029AF520D00C4F6C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6B30281B29AF521500C4F6C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6B30282329AF521500C4F6C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B30281329AF520D00C4F6C2 /* Build configuration list for PBXProject "FristProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B30280F29AF520D00C4F6C2;
+			productRefGroup = 6B30281D29AF521500C4F6C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B30281B29AF521500C4F6C2 /* FristProject (iOS) */,
+				6B30282329AF521500C4F6C2 /* FristProject (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B30281A29AF521500C4F6C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B30282C29AF521600C4F6C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B30282229AF521500C4F6C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B30282D29AF521600C4F6C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B30281829AF521500C4F6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5F85FF29B0CD09003370D7 /* Landmark.xcdatamodeld in Sources */,
+				6B30282A29AF521600C4F6C2 /* ContentView.swift in Sources */,
+				6B5F85F829B0C3C5003370D7 /* maps.swift in Sources */,
+				6B30282829AF521500C4F6C2 /* FristProjectApp.swift in Sources */,
+				6B29E13229AF80EB00F228D8 /* Form.swift in Sources */,
+				6B48228229B0A19B00877A77 /* Hero.swift in Sources */,
+				6B5F85FB29B0CC2C003370D7 /* Landmark.swift in Sources */,
+				6B5F860229B0D338003370D7 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B30282029AF521500C4F6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5F860029B0CD09003370D7 /* Landmark.xcdatamodeld in Sources */,
+				6B30282B29AF521600C4F6C2 /* ContentView.swift in Sources */,
+				6B5F85F929B0C3C5003370D7 /* maps.swift in Sources */,
+				6B30282929AF521600C4F6C2 /* FristProjectApp.swift in Sources */,
+				6B29E13329AF80EB00F228D8 /* Form.swift in Sources */,
+				6B48228329B0A19B00877A77 /* Hero.swift in Sources */,
+				6B5F85FC29B0CC2C003370D7 /* Landmark.swift in Sources */,
+				6B5F860329B0D338003370D7 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B30282E29AF521600C4F6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B30282F29AF521600C4F6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6B30283129AF521600C4F6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NONE.FristProject;
+				PRODUCT_NAME = FristProject;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B30283229AF521600C4F6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NONE.FristProject;
+				PRODUCT_NAME = FristProject;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B30283429AF521600C4F6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NONE.FristProject;
+				PRODUCT_NAME = FristProject;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6B30283529AF521600C4F6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NONE.FristProject;
+				PRODUCT_NAME = FristProject;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B30281329AF520D00C4F6C2 /* Build configuration list for PBXProject "FristProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B30282E29AF521600C4F6C2 /* Debug */,
+				6B30282F29AF521600C4F6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B30283029AF521600C4F6C2 /* Build configuration list for PBXNativeTarget "FristProject (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B30283129AF521600C4F6C2 /* Debug */,
+				6B30283229AF521600C4F6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B30283329AF521600C4F6C2 /* Build configuration list for PBXNativeTarget "FristProject (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B30283429AF521600C4F6C2 /* Debug */,
+				6B30283529AF521600C4F6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B5F85FD29B0CD09003370D7 /* Landmark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B5F85FE29B0CD09003370D7 /* Landmark.xcdatamodel */,
+			);
+			currentVersion = 6B5F85FE29B0CD09003370D7 /* Landmark.xcdatamodel */;
+			path = Landmark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B30281029AF520D00C4F6C2 /* Project object */;
+}
